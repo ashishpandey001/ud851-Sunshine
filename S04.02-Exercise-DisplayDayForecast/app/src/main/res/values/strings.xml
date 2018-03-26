@@ -31,6 +31,11 @@
         An error has occurred. Please try again by clicking REFRESH
     </string>
 
+    <!-- - - - - - - -->
+    <!--menu-->
+    <string name="share_weather">Share Weather Details</string>
+    <!--menu-->
+    <!-- - - - - - - -->
 
     <!-- - - - - - - - - - - - - -->
     <!--Used by SunshineDateUtils-->
