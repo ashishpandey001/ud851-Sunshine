@@ -279,6 +279,11 @@ public class MainActivity extends AppCompatActivity implements
         }
     }
 
+    private void openSettings() {
+        Intent intent = new Intent(this, SettingsActivity.class);
+        startActivity(intent);
+    }
+
     /**
      * This method is for responding to clicks from our list.
      *
@@ -351,6 +356,10 @@ public class MainActivity extends AppCompatActivity implements
         // TODO (2) Set setDisplayHomeAsUpEnabled to true on the support ActionBar
 
         // TODO (6) Launch SettingsActivity when the Settings option is clicked
+        if (id == R.id.action_settings) {
+            openSettings();
+            return true;
+        }
 
         return super.onOptionsItemSelected(item);
     }
